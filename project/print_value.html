@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Form Value</title>
+</head>
+<body>
+    <h1>Print Form Value</h1>
+    <form onsubmit="event.preventDefault(); printValue();">
+        <input type="text" id="userInput" required>
+        <button type="submit">Print</button>
+    </form>
+    <p id="output"></p>
+    <script src="practice.js"></script>
+</body>
+</html>
